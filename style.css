@@ -1,0 +1,945 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+}
+
+
+
+
+.spinner {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.spinner img {
+    transform: translate(0%, 105%);
+}
+
+.body {
+    display: none;
+}
+
+.row {
+    padding: 4%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.heading-anchor {
+    text-decoration: none;
+    color: black;
+}
+
+
+.heading-anchor:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-container {
+    display: block;
+    height: 57px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    background-color: transparent;
+    -webkit-transition: background-color 3s;
+    /* Safari */
+    transition: background-color 3s;
+
+}
+
+.menu_black {
+    background-color: transparent;
+}
+
+
+.menu_black {
+    background-color: #3969DA;
+    ;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row-proj {
+    padding: 2%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ___________________________________________________________________ */
+
+/* Menu */
+
+/* ______________________________________________________________________________ */
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 0;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+
+}
+
+.toggle,
+.overlay {
+    height: 800px;
+    display: block;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* ___________________________________________________________________ */
+
+/* Menu close */
+
+/* ______________________________________________________________________________ */
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+}
+
+header .menu {
+    height: 4rem;
+    width: 5.3rem;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    background-color: transparent;
+    z-index: 3000;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+
+
+header div.menu div {
+    width: 33px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 0px;
+    background-color: #3969DA;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -99;
+    -webkit-transition: height .2s;
+    transition: height .2s;
+    /**/
+}
+
+
+.overlay2 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1800;
+}
+
+.overlay div {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.overlay div ul {
+    list-style-type: none;
+    z-index: 1000;
+}
+
+.links {}
+
+
+.backdrop {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 800;
+    display: none;
+}
+
+.header_top {
+    /*background-color: #0796D8;    */
+    background-color: #2C3E50;
+    height: 30%;
+    width: 100%;
+}
+
+.header_bottom {
+    /*background-color:#03A9F5;   */
+    background-color: #E74C3C;
+    height: 70%;
+    width: 100%;
+}
+
+.x {
+    border: 1px solid red;
+    z-index: -3000;
+    ;
+}
+
+#hero {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.hero_main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/img11.jpeg");
+    z-index: 9999;
+    background-size: cover;
+    padding: 5%;
+    background-position: center center;
+    /* position: relative; */
+}
+
+/* 
+.hero_main .fa {
+    position: absolute
+
+} */
+
+.hero_main img {
+    width: 100%;
+    height: 800px;
+}
+
+#hero .num {
+    position: relative;
+    bottom: 6px;
+    margin-left: 4px;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+#typed {
+    position: absolute;
+    left: 3%;
+    top: 200px;
+    z-index: 1199;
+    font-size: 2.8rem;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+#typed p {
+    margin-left: 13rem;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: dodgerblue;
+    content: " ";
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
+.button {
+    margin-top: 2rem;
+    background-color: #FF0044;
+    ;
+    color: #fff;
+    z-index: 3001;
+    padding: 7px 35px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    -webkit-transition: background-color 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+    height: 45px;
+    position: relative;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    */
+}
+
+.btn-white {
+    background-color: #fff;
+}
+
+
+.button .fa {
+    top: 12.5px;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.button:hover {
+    background-color: #404040;
+    color: #fff;
+    text-decoration: none;
+}
+
+.my_intro {
+    height: 250px;
+    z-index: 2000;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.my_intro h1 {
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1.35rem;
+    color: aliceblue;
+    font-weight: 100;
+    /*font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.my_intro h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    /*font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;*/
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 3.35rem;
+}
+
+.fa {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.fa:hover {
+    color: black;
+}
+
+.side_menu ul {
+    padding: 0;
+    padding-top: 2rem;
+}
+
+.side_menu ul li {
+    padding-left: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    display: block;
+    margin-top: 1rem;
+}
+
+.side_menu ul li {
+    list-style-type: none;
+    padding-bottom: 2rem;
+    text-decoration: none;
+    padding: 0;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.side_menu ul li a {
+    color: #fff;
+    font-size: 1.5rem;
+    /* /* font-family: 'Eater', cursive;     */
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.side_menu ul li:hover {
+    background-color: #fff;
+    color: dodgerblue;
+    background-color: #fff;
+}
+
+.side_menu ul li:hover a {
+    color: dodgerblue;
+}
+
+
+
+
+.overlay div ul li {
+    color: #fff;
+    ;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+
+}
+
+.overlay div ul li:hover {
+    background-color: wheat;
+    ;
+    cursor: pointer;
+    color: #2196f3;
+    -webkit-transition: background-color 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+}
+
+
+.overlay div ul li:hover a {
+    color: #3969DA;
+}
+
+.overlay div ul li a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: wheat;
+    font-size: 48px;
+    line-height: 45px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    letter-spacing: -1px;
+    display: block;
+}
+
+/* 
+/**********************************************************************************************************/
+
+/***********************************************SKILLS ********************************************************/
+
+/************************************************************************************************************/
+
+.skills-bars {
+    width: 100%;
+    padding-top: 0;
+}
+
+.skills-section h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.skills-bars .name,
+.skills-bars .bar {
+    width: 100%;
+    font-size: 2remf font-family: 'Sfma, Geneva, Verdana, sans-serif';
+    font-weight: 50f
+}
+
+/**********************************************************************************************************/
+
+/***********************************************portfolio ********************************************************/
+
+/************************************************************************************************************/
+
+.portfolio-section {
+    background-color: #f4f4f4;
+    padding-bottom: 20px !important;
+}
+
+.portfolio-section h2 {
+    padding-bottom: .5rem;
+    margin-bottom: 0;
+}
+
+.projects {
+    width: 100%;
+}
+
+.projects a {
+    -webkit-transition: opacity 0.8s ease-in-out;
+    -moz-transition: opacity 0.8s ease-in-out;
+    -ms-transition: opacity 0.8s ease-in-out;
+    -o-transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.8s ease-in-out;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    opacity: 0.4s;
+    text-decoration: none;
+}
+
+
+.projects a:visited {
+    text-decoration: none;
+}
+
+
+.projects.row {
+    padding-bottom: 0;
+}
+
+a.project {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    background-color: dodgerblue;
+}
+
+.project .name p {
+    text-align: center;
+    margin-top: 6rem;
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Merriweather', serif;
+    border-bottom: none;
+}
+
+a.project.travel {
+    background-color: #33363B;
+}
+
+a.project.travel .name p {
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
+    border: 3px solid #fff;
+    font-weight: bold;
+    width: 300px;
+    max-width: 85%;
+    margin: 7rem auto;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #33363B;
+}
+
+a.project.pizza {
+    background-color: #276746;
+}
+
+a.project.pizza .name p {
+    border: 5px solid #fff;
+    width: 70%;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 6rem;
+    border-radius: 50%;
+    padding: 6px 6px;
+    min-width: 300px;
+    /* background-color:    #276746; */
+    /* background-color: #33363B;
+    background-color: #333;
+    color: #d8f3df;  */
+    /* color: burlywood; */
+}
+
+a.project.pizza .name p span {
+    position: relative;
+    font-weight: 900;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+
+a.project.pizza .name p img {
+    width: 85px;
+    margin-right: 6px;
+}
+
+a.project.morneau {
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+a.project.morneau img {
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+a.project.coolcamp {
+    position: relative;
+    background-color: #6497B1;
+}
+
+a.project.coolcamp2 {
+    position: relative;
+    background-color: #D56853;
+}
+
+
+
+a.project.coolcamp h3 {
+    border: 5px solid #fff;
+    width: 100px;
+    margin: 0 auto;
+    padding: 7px;
+    font-size: 4rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
+    color: #fff;
+    font-size: 7.5rem;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -45%);
+}
+
+a.project.coolcamp .fa {
+    position: relative;
+    top: 50%;
+    transform: translate(0%, 5%);
+}
+
+a.project.coolcamp img {
+    width: 80px;
+}
+
+a.project.sebiz {
+    background-color: #fff;
+}
+
+a.project.sebiz img {
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+a.project.paul {
+    text-align: center;
+    background-color: #27313B;
+}
+
+a.project.mohali {
+    background-color: #fff;
+    ;
+    text-align: center;
+}
+
+a.project.mohali img {
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+.project.paul p {
+    position: relative;
+    color: #f4f4f4;
+    font-size: 5.5rem;
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans serif;
+    font-weight: lighter;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 66px;
+}
+
+a.project.paul img {
+    width: 55px;
+    margin-right: 10px;
+    vertical-align: middle;
+    left: -70px;
+    position: absolute;
+    bottom: 8px;
+}
+
+.project.uhost {
+    background-color: #E0E4CC;
+    /* background-color: #47362D; */
+    text-align: center;
+    z-index: -998;
+}
+
+.project.uhost img {
+    position: relative;
+    bottom: 65px;
+    /* z-index: -999; */
+}
+
+.project.uhost p {
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    position: relative;
+    z-index: 1;
+}
+
+.project.omni {
+    background-color: #D56853;
+
+}
+
+.project.omni p {
+    position: relative;
+    bottom: 2.3rem;
+}
+
+.project.omni img {
+    width: 130px;
+}
+
+.projects a:hover {
+    /* background-color: #505050; */
+    opacity: 0.6;
+}
+
+
+section.about-me-section {
+    padding-top: 3rem;
+    background-color: #F4F0EA;
+    background-color: #f4f4f4;
+    /*background-image: url("img/wall5.jpg");   */
+    background-image: url("img/img12.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+section.about-me-section h2 {
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.about-me-section .my-image {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 290px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.about-me-section .my-image img {
+    width: 100%;
+    border-radius: 5px;
+    /*height: 400px;*/
+
+}
+
+.about-me-section .my-info {
+    margin: 0 auto;
+    width: 100%;
+    text-align: justify;
+    padding: 2%;
+    background-color: #fff;
+    /*font-family: 'Boogaloo', cursive;  */
+    font-family: 'Spicy Rice', cursive;
+    font-size: 2rem;
+    /* color:#27313B; */
+    color: slategray;
+    font-weight: 100;
+
+}
+
+
+/*p.last-line::after { 
+    content: "\a";
+    content: "";
+    white-space: pre;    
+    line-height: 5;
+}
+*/
+/* ------------------contact--------------------------- */
+
+#googleMap {
+    border: 1px solid red;
+    width: 20%;
+}
+
+
+/* _____________________form________________________ */
+
+.contact-me-section {
+    background-color: #FFFFFF !important;
+
+
+}
+
+
+.contact-me-section h2 {
+    font-size: 3rem;
+}
+
+.contact-form form {
+    /* padding: 35px; */
+    margin: 0 auto;
+    display: block;
+    max-width: 600px;
+
+}
+
+
+
+/*contact-form form input[type="text"],
+.contact-form form input[type="email"],
+textarea {
+    width: 100%;   
+    margin-bottom: 2rem;   
+    margin-top: .5rem;
+    border: 2px solid #fff;;
+    border: 1px solid gainsboro;
+    max-width: 600px;  
+    outline: none;     
+    background-color: #fff;
+}
+/*
+.contact-form form input[type="text"],
+.contact-form form input[type="email"]{
+    height: 50px;    
+}
+
+
+
+.contact-form form textarea{
+    height: 100px;
+}*/
+
+.btn {
+    margin: 0 auto;
+    width: 180px;
+    height: 40px;
+    display: block;
+    background-color: #1EAEDB;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+    -webkit-transition: background-color 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.btn {
+    margin: 0 auto !important;
+    width: 250px;
+    display: block !important;
+}
+
+.btn:hover {
+    background-color: #404040;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.form-message {
+    margin: 0 auto;
+    width: 68%;
+    padding: 5px 20px 5px 20px;
+    font-size: 1.7rem;
+    color: #333;
+}
+
+.success {
+    /* background-color: #26bf44; */
+    background-color: rgba(38, 191, 68, 0.8)
+}
+
+.error {
+    background-color: rgba(209, 46, 46, 0.8)
+}
+
+
+.portfolio-section .btns {
+    margin: 0 auto;
+    width: 310px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    z-index: 99!important;
+}
+
+.btns a {
+    border: 1px solid #343334;
+    display: inline-block;
+    width: 150px;
+     text-align: center;
+     width: 49%;
+     height: 45px;
+     text-decoration: none;
+     color: #343334;
+     padding:10px;
+     font-weight: 600;
+     z-index: 99!important;
+}
+
+.btns a:hover {
+    background-color: #584b4f;
+    color: #fff;
+}
+
+/*.btns .projBtn_html {*/
+/*    background-color: #343434;*/
+/*    color: #fff;*/
+/*}*/
+
+.bc_color {
+    background-color:#343334;
+    color: #fff!important;
+}
+

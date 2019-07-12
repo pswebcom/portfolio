@@ -1,0 +1,135 @@
+/* 2110 winnipeg st */
+@media only screen and (min-width: 600px) {
+
+    .hero_main .my_intro h1 {
+        font-size: 4rem;        
+    }
+    
+    .hero_main .my_intro h3 {
+        font-size: 2rem;        
+    }
+    
+    
+    .portfolio-section a.project {        
+        float: left;
+        width: 50%;        
+    }
+
+    .portfolio-section a.project.morneau {        
+        display: block;
+        width: 100%;
+    }
+
+    .progress {
+        width: 90%;                
+        margin: 0 auto;
+    }
+
+    .skills-bars .name{        
+        width: 20%!important;
+        margin: 1rem auto;                        
+    }
+    
+
+    a.project.pizza .name p span {        
+        
+        font-size: 5rem;
+    }
+
+    .project.paul p {     
+        font-size: 5rem!important;
+    }
+
+    .overlay div {       
+        margin-top: 145px!important;
+    }
+
+     .overlay div ul li{        
+      opacity: 0.9;          
+    }
+
+    .overlay div ul li a {        
+        
+        font-size: 60px!important;
+        line-height: 60px!important;
+        opacity: 1;
+            
+    }
+    
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+
+    .hero_main .my_intro h1 {
+        font-size: 6rem;        
+    }
+    
+    .hero_main .my_intro h3 {
+        font-size: 3rem;        
+    }
+    
+
+    .portfolio-section a.project {        
+        float: left;
+        width: 33.33333%;
+        height: 250px;    
+    }
+
+    .portfolio-section a.project .name p {        
+        margin-top: 9rem;        
+    }
+
+    a.project.pizza .name p {
+        margin-top: 9rem!important;        
+    }
+    
+    a.project.travel .name p {        
+        margin-top: 9.5rem!important;    
+    }
+
+    .portfolio-section a.project.morneau {                
+        width: 33.3333%;
+    }
+
+    .skills-bars {
+        width: 40%;        
+    }
+    
+    .skills-bars .name,
+    .skills-bars .bar {
+        width: 70%;
+    }
+
+     .progress {
+        width: 80%;        
+        height: 25px;
+        margin: 0 auto;
+    }
+
+    
+    .skills-bars .name{        
+        width: 10%!important;
+        margin: 1rem auto;                  
+    }
+
+    .about-me-section h2 {
+     padding-bottom: 3rem;
+     font-size: 4rem;
+    }
+
+    .about-me-section .my-image {
+        width: 50%!important;                
+        /*float: left;     */       
+    }
+
+    .about-me-section .my-info {             
+        width: 50%!important;         
+        /*display: inline-block;*/                   
+        margin-left: 1rem;
+        font-size: 2rem;
+    }
+
+
+}
